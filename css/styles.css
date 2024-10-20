@@ -194,7 +194,11 @@ ul {
 
 @media (min-resolution: 192dpi) {
   .main-page-section {
-    background-image: url(../images/hero-image.jpg);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-image.jpg);
   }
 }
 
