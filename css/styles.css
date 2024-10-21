@@ -1026,7 +1026,7 @@ ul {
   pointer-events: none;
 }
 
-.menu-modal-overlay .is-open {
+.menu-modal-overlay.is-open {
   opacity: 1;
   pointer-events: auto;
 }
