@@ -1104,8 +1104,8 @@ ul {
   gap: 40px;
 }
 
-@media (min-resolution: 768px) {
-  .menu-modal-overlay .is-open {
+@media (min-width: 768px) {
+  .menu-modal-overlay.is-open {
     display: none;
   }
 }
