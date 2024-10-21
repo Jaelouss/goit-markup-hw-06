@@ -83,20 +83,18 @@
             </li>
           </ul>
         </address>
-        <div>
-          <button
-            type="button"
-            class="btn-menu"
+        <button
+          type="button"
+          class="btn-menu"
+        >
+          <svg
+            class="menu"
+            width="24"
+            height="24"
           >
-            <svg
-              class="menu"
-              width="24"
-              height="24"
-            >
-              <use href="./images/icons.svg#menu-btn"></use>
-            </svg>
-          </button>
-        </div>
+            <use href="./images/icons.svg#menu-btn"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -198,8 +196,8 @@
           <ul class="team-ul">
             <li class="team-list">
               <img
-                srcset="./images/team1-x1.jpg x1, ./images/team1.jpg x2"
-                src="./images/team1-x1.jpg"
+                srcset="./images/team1.jpg x1, ./images/team1-x2.jpg x2"
+                src="./images/team1.jpg"
                 alt="photo Mark Guerrero"
                 width="264"
               />
@@ -268,8 +266,8 @@
             </li>
             <li class="team-list">
               <img
-                srcset="./images/team2-x1.jpg x1, ./images/team2.jpg x2"
-                src="./images/team2-x1.jpg"
+                srcset="./images/team2.jpg x1, ./images/team2-x2.jpg x2"
+                src="./images/team2.jpg"
                 alt="photo Tom Ford"
                 width="264"
               />
@@ -338,8 +336,8 @@
             </li>
             <li class="team-list">
               <img
-                srcset="./images/team3-x1.jpg x1, ./images/team3.jpg x2"
-                src="./images/team3-x1.jpg"
+                srcset="./images/team3.jpg x1, ./images/team3-x2.jpg x2"
+                src="./images/team3.jpg"
                 alt="photo Camila Garcia"
                 width="264"
               />
@@ -408,8 +406,8 @@
             </li>
             <li class="team-list">
               <img
-                srcset="./images/team4-x1.jpg x1, ./images/team4.jpg x2"
-                src="./images/team4-x1.jpg"
+                srcset="./images/team4.jpg x1, ./images/team4-x2.jpg x2"
+                src="./images/team4.jpg"
                 alt="photo Daniel Wilson"
                 width="264"
               />
@@ -489,8 +487,8 @@
             <li class="portfolio-box-li">
               <div class="portfolio-box-img">
                 <img
-                  srcset="./images/portfolio1-x1.jpg x1, ./images/portfolio1.jpg x2"
-                  src="./images/portfolio1-x1.jpg"
+                  srcset="./images/portfolio1.jpg x1, ./images/portfolio1-x2.jpg x2"
+                  src="./images/portfolio1.jpg"
                   alt="Banking App"
                   width="360"
                 />
@@ -508,8 +506,8 @@
             <li class="portfolio-box-li">
               <div class="portfolio-box-img">
                 <img
-                  srcset="./images/portfolio2-x1.jpg x1, ./images/portfolio2.jpg x2"
-                  src="./images/portfolio2-x1.jpg"
+                  srcset="./images/portfolio2.jpg x1, ./images/portfolio2-x2.jpg x2"
+                  src="./images/portfolio2.jpg"
                   alt="Cashless Payment"
                   width="360"
                 />
@@ -527,8 +525,8 @@
             <li class="portfolio-box-li">
               <div class="portfolio-box-img">
                 <img
-                  srcset="./images/portfolio3-x1.jpg x1, ./images/portfolio3.jpg x2"
-                  src="./images/portfolio3-x1.jpg"
+                  srcset="./images/portfolio3.jpg x1, ./images/portfolio3-x2.jpg x2"
+                  src="./images/portfolio3.jpg"
                   alt="Meditation App"
                   width="360"
                 />
@@ -546,8 +544,8 @@
             <li class="portfolio-box-li">
               <div class="portfolio-box-img">
                 <img
-                  srcset="./images/portfolio4-x1.jpg x1, ./images/portfolio4.jpg x2"
-                  src="./images/portfolio4-x1.jpg"
+                  srcset="./images/portfolio4.jpg x1, ./images/portfolio4-x2.jpg x2"
+                  src="./images/portfolio4.jpg"
                   alt="Taxi Service"
                   width="360"
                 />
@@ -565,8 +563,8 @@
             <li class="portfolio-box-li">
               <div class="portfolio-box-img">
                 <img
-                  srcset="./images/portfolio5-x1.jpg x1, ./images/portfolio5.jpg x2"
-                  src="./images/portfolio5-x1.jpg"
+                  srcset="./images/portfolio5.jpg x1, ./images/portfolio5-x2.jpg x2"
+                  src="./images/portfolio5.jpg"
                   alt="Screen Illustrations"
                   width="360"
                 />
@@ -584,8 +582,8 @@
             <li class="portfolio-box-li">
               <div class="portfolio-box-img">
                 <img
-                  srcset="./images/portfolio6-x1.jpg x1, ./images/portfolio6.jpg x2"
-                  src="./images/portfolio6-x1.jpg"
+                  srcset="./images/portfolio6.jpg x1, ./images/portfolio6-x2.jpg x2"
+                  src="./images/portfolio6.jpg"
                   alt="Online Courses"
                   width="360"
                 />
@@ -866,7 +864,7 @@
     <div class="menu-modal-overlay">
       <div class="container menu-modal">
         <button
-          class="close-btn"
+          class="menu-close-btn"
           type="button"
         >
           <svg
@@ -920,66 +918,64 @@
             </li>
           </ul>
         </address>
-        <div class="">
-          <ul class="social-icons-list list-icon-modal">
-            <li class="social-icons">
-              <a
-                href="/index.html"
-                class="social-link"
+        <ul class="social-icons-list list-icon-modal">
+          <li class="social-icons">
+            <a
+              href="/index.html"
+              class="social-link"
+            >
+              <svg
+                class="icon"
+                width="24"
+                height="24"
               >
-                <svg
-                  class="icon"
-                  width="24"
-                  height="24"
-                >
-                  <use href="./images/icons.svg#instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-icons">
-              <a
-                href="/index.html"
-                class="social-link"
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-icons">
+            <a
+              href="/index.html"
+              class="social-link"
+            >
+              <svg
+                class="icon"
+                width="24"
+                height="24"
               >
-                <svg
-                  class="icon"
-                  width="24"
-                  height="24"
-                >
-                  <use href="./images/icons.svg#twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-icons">
-              <a
-                href="/index.html"
-                class="social-link"
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-icons">
+            <a
+              href="/index.html"
+              class="social-link"
+            >
+              <svg
+                class="icon"
+                width="24"
+                height="24"
               >
-                <svg
-                  class="icon"
-                  width="24"
-                  height="24"
-                >
-                  <use href="./images/icons.svg#facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-icons">
-              <a
-                href="/index.html"
-                class="social-link"
+                <use href="./images/icons.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-icons">
+            <a
+              href="/index.html"
+              class="social-link"
+            >
+              <svg
+                class="icon"
+                width="24"
+                height="24"
               >
-                <svg
-                  class="icon"
-                  width="24"
-                  height="24"
-                >
-                  <use href="./images/icons.svg#linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
+                <use href="./images/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
