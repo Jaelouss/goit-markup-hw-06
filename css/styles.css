@@ -104,6 +104,9 @@ ul {
   background-color: transparent;
   margin: 16px 0;
   padding: 0;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
 }
 
 .menu {
@@ -1041,6 +1044,7 @@ ul {
   padding-right: 24px;
 }
 .menu-close-btn {
+  cursor: pointer;
   align-self: flex-end;
   width: 24px;
   height: 24px;
