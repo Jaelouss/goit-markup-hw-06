@@ -1,4 +1,4 @@
-/* ЗАГАЛЬНІ */
+/* *ЗАГАЛЬНІ */
 
 *,
 *::after,
@@ -67,7 +67,7 @@ ul {
   fill: #f4f4fd;
 }
 
-/* ХЕДЕР */
+/**ХЕДЕР */
 
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -190,7 +190,7 @@ ul {
   }
 }
 
-/* ПЕРША */
+/** ПЕРША */
 
 .main-page-section {
   background-image: linear-gradient(
@@ -310,7 +310,7 @@ ul {
   }
 }
 
-/* ДРУГА */
+/** ДРУГА */
 
 .visually-hidden {
   position: absolute;
@@ -394,7 +394,7 @@ ul {
   }
 }
 
-/* ТРЕТЯ */
+/* *ТРЕТЯ */
 
 .teamship {
   background-color: #f4f4fd;
@@ -498,7 +498,7 @@ ul {
   }
 }
 
-/* ЧЕТВЕРТА */
+/** ЧЕТВЕРТА */
 
 .portfolio-header {
   font-weight: 700;
@@ -598,7 +598,7 @@ ul {
   }
 }
 
-/* ФУТЕР */
+/** ФУТЕР */
 
 .footer {
   background: #2e2f42;
@@ -794,7 +794,7 @@ ul {
   }
 }
 
-/* ОВЕРЛЕЙ */
+/* *ОВЕРЛЕЙ */
 
 .modal-overlay {
   display: flex;
@@ -1015,7 +1015,7 @@ ul {
   }
 }
 
-/* МЕНЮ */
+/** МЕНЮ */
 
 .menu-modal-overlay {
   background-color: #fff;
