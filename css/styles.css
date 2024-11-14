@@ -58,6 +58,7 @@ ul {
   .container {
     max-width: 1158px;
   }
+
   .section {
     padding: 120px 0;
   }
@@ -120,13 +121,16 @@ ul {
     display: flex;
     align-items: center;
   }
+
   .logo {
     margin-right: 76px;
   }
+
   .nav-link {
     display: flex;
     gap: 40px;
   }
+
   .nav-book {
     font-weight: 500;
     font-size: 16px;
@@ -138,9 +142,11 @@ ul {
     padding: 24px 0;
     display: block;
   }
+
   .studio-book {
     color: #404bbf;
   }
+
   .studio-book::after {
     content: "";
     border-radius: 2px;
@@ -151,6 +157,7 @@ ul {
     height: 4px;
     background-color: #404bbf;
   }
+
   .address {
     font-weight: 400;
     font-size: 12px;
@@ -160,30 +167,36 @@ ul {
     font-style: normal;
     margin-left: auto;
   }
+
   .address-link {
     display: flex;
     flex-direction: column;
     gap: 12px;
   }
+
   .address-book {
     color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
   .address-book:hover,
   .address-book:focus {
     color: #404bbf;
   }
+
   .btn-menu,
   .menu {
     display: none;
   }
 }
+
 @media (min-width: 1156px) {
   .address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
+
   .address-link {
     flex-direction: row;
     gap: 40px;
@@ -259,6 +272,7 @@ ul {
     padding: 112px 0;
     max-width: 768px;
   }
+
   .main-page-section {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -266,6 +280,7 @@ ul {
       ),
       url(../images/hero-image-tablet.jpg);
   }
+
   @media (min-resolution: 192dpi) {
     .main-page-section {
       background-image: linear-gradient(
@@ -275,6 +290,7 @@ ul {
         url(../images/hero-image-tablet-x2.jpg);
     }
   }
+
   .main-page-title {
     font-weight: 700;
     font-size: 56px;
@@ -289,6 +305,7 @@ ul {
     padding: 188px 0;
     max-width: 1440px;
   }
+
   .main-page-section {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -296,6 +313,7 @@ ul {
       ),
       url(../images/hero-image-pc.jpg);
   }
+
   @media (min-resolution: 192dpi) {
     .main-page-section {
       background-image: linear-gradient(
@@ -305,6 +323,7 @@ ul {
         url(../images/hero-image-pc-x2.jpg);
     }
   }
+
   .main-page-title {
     margin-bottom: 48px;
   }
@@ -355,12 +374,14 @@ ul {
   .descr-header {
     text-align: left;
   }
+
   .descr-text {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
   }
+
   .descr-list {
     width: calc((100% - 24px) / 2);
   }
@@ -371,9 +392,11 @@ ul {
     flex-wrap: nowrap;
     gap: 24px;
   }
+
   .descr-list {
     width: calc((100% - 72px) / 4);
   }
+
   .descr-img {
     display: flex;
     margin-bottom: 8px;
@@ -384,11 +407,13 @@ ul {
     justify-content: center;
     align-items: center;
   }
+
   .descr-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
   }
+
   .descr-p-text {
     font-weight: 400;
   }
@@ -584,6 +609,7 @@ ul {
     column-gap: 24px;
     row-gap: 72px;
   }
+
   .portfolio-box-li {
     width: calc((100% - 24px) / 2);
   }
@@ -593,6 +619,7 @@ ul {
   .portfolio-ul {
     row-gap: 48px;
   }
+
   .portfolio-box-li {
     width: calc((100% - 2 * 24px) / 3);
   }
@@ -750,23 +777,29 @@ ul {
     row-gap: 72px;
     padding-left: 108px;
   }
+
   .footer-logo-text {
     align-items: baseline;
     margin: 0;
   }
+
   .footer-social {
     margin: 0;
   }
+
   .footer-social-text {
     text-align: left;
   }
+
   .subscribe-box {
     align-items: baseline;
   }
+
   .subscribe-form {
     flex-direction: row;
     gap: 24px;
   }
+
   .sub-input {
     width: 264px;
   }
@@ -780,15 +813,19 @@ ul {
     padding: 0 15px;
     gap: 0;
   }
+
   .footer-logo-text {
     margin-right: 120px;
   }
+
   .footer-social {
     margin-right: 80px;
   }
+
   .sub-input {
     opacity: 1;
   }
+
   .sub-input::placeholder {
     opacity: 1;
   }
@@ -1009,6 +1046,7 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0 auto;
 }
+
 @media (min-width: 768px) {
   .modal {
     width: 402px;
@@ -1049,6 +1087,7 @@ ul {
   flex-direction: column;
   padding-right: 24px;
 }
+
 .menu-close-btn {
   cursor: pointer;
   align-self: flex-end;
@@ -1062,6 +1101,7 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .nav-link-modal {
   margin-bottom: auto;
   margin-top: 24px;
